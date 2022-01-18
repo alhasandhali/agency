@@ -1,0 +1,692 @@
+/* =========================================================
+                    Common CSS Start
+=========================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:root {
+    --hover: #49cbcd;
+    --black: #484c55;
+    --shad: #f8f9fb;
+    --head: #4e525d;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =========================================================
+                    Common CSS End
+=========================================================== */
+/* =========================================================
+                    Head CSS Start
+=========================================================== */
+.logo {
+    width: 20%;
+    padding: 22px 0 21px;
+}
+
+.logo h2 a {
+    font-family: 'Lobster', serif;
+    font-weight: 400;
+    font-size: 43px;
+    color: #44c0c2;
+    /* line-height: 100px; */
+}
+
+.menu {
+    width: 80%;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 0 25px;
+    line-height: 97px;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--black);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.menu ul li a:hover {
+    color: var(--hover);
+    border-bottom: 3px solid var(--hover);
+    background: var(--shad);
+}
+
+/* =========================================================
+                    Head CSS End
+=========================================================== */
+/* =========================================================
+                    Banner CSS Start
+=========================================================== */
+#banner {
+    padding: 140px 0 145px;
+}
+
+.banner_text {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.banner_text h1 {
+    font-weight: 600;
+    font-size: 63px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.banner_text p {
+    font-weight: 400;
+    font-size: 23px;
+    color: #fff;
+    line-height: 37px;
+    padding: 0px 161px 52px;
+}
+
+.banner_text a {
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 20px 40px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.banner_text a:hover {
+    color: #fff;
+    background: rgba(248, 249, 251, 0.4);
+}
+
+/* =========================================================
+                    Banner CSS End
+=========================================================== */
+/* =========================================================
+                    Service CSS Start
+=========================================================== */
+#service {
+    padding: 104px 0 98px;
+}
+
+.serv {
+    width: 20%;
+    margin: 0 29px;
+    text-align: center;
+}
+
+.serv i {
+    font-size: 33px;
+    color: var(--hover);
+    width: 99px;
+    height: 99px;
+    border: 3px solid var(--hover);
+    line-height: 99px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 45px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.serv h3 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #4e525d;
+    margin-bottom: 15px;
+}
+
+.serv p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #4e525d;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.serv a {
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    background: var(--hover);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.serv:hover i {
+    background: var(--hover);
+    color: #fff;
+}
+
+/* =========================================================
+                    Service CSS End
+=========================================================== */
+/* =========================================================
+                    Portfolio CSS Start
+=========================================================== */
+#portfolio {
+    padding: 53px 0 103px;
+    background: #f1f1f1;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 42px;
+    color: var(--head);
+    text-align: center;
+}
+
+.imgs {
+    margin-top: 54px;
+}
+
+.imgs .img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.imgs .img {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.imgs .img:nth-child(3),
+.imgs .img:last-child {
+    margin-right: 0;
+}
+
+.port {
+    text-align: center;
+}
+
+.port a {
+    padding: 22px 42px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    background: var(--hover);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.port a:hover {
+    background: hsla(181, 57%, 55%, 0.2);
+    color: var(--hover);
+}
+
+/* =========================================================
+                    Portfolio CSS End
+=========================================================== */
+/* =========================================================
+                    Team CSS Start
+=========================================================== */
+#team {
+    padding: 100px 0;
+}
+
+.team_col {
+    margin-top: 140px;
+}
+
+.team_col .team_p {
+    width: 20.72%;
+    margin: 0 25px;
+    text-align: center;
+}
+
+.team_col .team_p .img {
+    width: 200px;
+    height: 200px;
+    background: #eeeef0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 auto;
+}
+
+.team_col .team_p h4 {
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--head);
+    padding-top: 70px;
+
+}
+
+.team_col .team_p h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--head);
+    padding-top: 5px;
+}
+
+.team_col .team_p p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--head);
+    line-height: 26px;
+    padding-top: 30px;
+}
+
+.team_col .team_p .img {
+    position: relative;
+}
+
+.team_col .team_p .img::after {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 0;
+    background: #f46d6d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    cursor: pointer;
+}
+
+.team_col .team_p .img::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 0;
+    background: #f46d6d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    cursor: pointer;
+}
+
+.team_col .team_p:hover .img::after {
+    width: 12px;
+}
+
+.team_col .team_p:hover .img::before {
+    height: 12px;
+}
+
+/* =========================================================
+                    Team CSS End
+=========================================================== */
+/* =========================================================
+                    Price CSS Start
+=========================================================== */
+#price {
+    padding: 120px 0 100px;
+    background: #f1f1f1;
+}
+
+.offer {
+    width: 30.77%;
+    margin: 0 15px;
+}
+
+.offer h3 {
+    height: 75px;
+    line-height: 75px;
+    background: #485460;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+}
+
+.offer h4 {
+    height: 68px;
+    line-height: 68px;
+    background: #f8f9fb;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #485460;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.offer ul li {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #ecf0f1;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8c9299;
+}
+
+.offer .buy {
+    padding: 30px 0;
+    background: #f8f9fb;
+    text-align: center;
+}
+
+.offer .buy a {
+    padding: 13px 50px;
+    background: #788492;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.offer .buy1 {
+    padding: 30px 0;
+    background: #f8f9fb;
+    text-align: center;
+}
+
+.offer .buy1 a {
+    padding: 13px 50px;
+    background: var(--hover);
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.offer .color {
+    background: var(--hover);
+}
+
+/* =========================================================
+                    Price CSS End
+=========================================================== */
+/* =========================================================
+                    FeedBack CSS Start
+=========================================================== */
+#feed {
+    padding: 145px 0 100px;
+}
+
+.fb i {
+    font-size: 24px;
+    color: #9c9c9c;
+    margin: 98px 0;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.fb i:hover {
+    color: var(--hover);
+}
+
+.fb .text {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fb .text h3 {
+    font-weight: 400;
+    font-size: 42px;
+    color: var(--head);
+}
+
+.fb .text p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--head);
+    padding-top: 27px;
+    padding-bottom: 30px;
+}
+
+.fb .text h5 {
+    font-weight: 400;
+    font-size: 21px;
+    color: #9a8faf;
+}
+
+/* =========================================================
+                    FeedBack CSS End
+=========================================================== */
+/* =========================================================
+                    Footer CSS Start
+=========================================================== */
+#footer {
+    padding: 105px 0 180px;
+}
+
+.foot {
+    margin-top: 120px;
+}
+
+.head_color {
+    color: #fff;
+}
+
+.foot .foot_text {
+    width: 50%;
+    float: left;
+}
+
+.foot .foot_text h4 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.foot .foot_text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    padding-right: 155px;
+}
+
+.foot .foot_text i {
+    font-size: 21px;
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 42px;
+    text-align: center;
+    background: #3b5997;
+    margin-right: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 43px;
+    margin-bottom: 21px;
+}
+
+.foot .foot_text .fa-twitter {
+    background: #3ec2f3;
+}
+
+.foot .foot_text .fa-pinterest-p {
+    background: #c8232c;
+}
+
+.foot_text a {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #bface2;
+    margin-bottom: 10px;
+}
+
+.foot .foot_input {
+    width: 100%;
+    float: right;
+}
+
+.foot .foot_input textarea {
+    display: block;
+}
+
+#name {
+    height: 45px;
+    width: 45%;
+    margin: 0 15px 30px 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#name::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #c1c1c1;
+}
+
+#email {
+    height: 45px;
+    width: 45%;
+    margin: 0 0 30px 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#email::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #c1c1c1;
+}
+
+#textarea {
+    height: 180px;
+    width: 570px;
+    margin: 0 0 30px 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#textarea::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #c1c1c1;
+}
+
+.foot_input a {
+    float: right;
+    padding: 14px 55px;
+    background: var(--hover);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* =========================================================
+                    Footer CSS End
+=========================================================== */
